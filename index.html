@@ -69,7 +69,7 @@
       <input type="text" name="Telefone_Celular" required />
     </label>
     <label>E-mail:
-      <input type="email" name="Email" required />
+      <input type="email" name="Email" />
     </label>
     <label>Data de Nascimento:
       <input type="date" name="Data_Nascimento" required />
@@ -111,7 +111,7 @@
       <input type="text" name="Profissao" required />
     </label>
     <label>Nome do Pai:
-      <input type="text" name="Nome_Pai" required />
+      <input type="text" name="Nome_Pai" />
     </label>
     <label>Nome da Mãe:
       <input type="text" name="Nome_Mae" required />
@@ -121,19 +121,20 @@
     <label>Status de Membro:
       <select name="Status_Membro" required>
         <option value="">Selecione</option>
-        <option value="Membro Comungante">Membro Comungante</option>
-        <option value="Membro Não Comungante">Membro Não Comungante</option>
+        <option value="Membro Comungante">Membro em Comunhão</option>
+        <option value="Membro Não Comungante">Membro fora da comunhão</option>
         <option value="Não Membro">Não Membro</option>
       </select>
     </label>
     <label>Ofício:
       <select name="Oficio" required>
         <option value="">Selecione</option>
-        <option value="Não Oficial">Não Oficial</option>
+        <option value="Não Oficial">Cooperador</option>
         <option value="Diácono">Diácono</option>
-        <option value="Diácono em disponibilidade">Diácono em disponibilidade</option>
         <option value="Presbítero">Presbítero</option>
-        <option value="Presbítero em disponibilidade">Presbítero em disponibilidade</option>
+        <option value="Missionário(a)">Missionário(a)</option>
+        <option value="Evangelista">Evangelista</option>
+        <option value="Pastor(a)">Pastor(a)</option>
       </select>
     </label>
 
@@ -142,28 +143,28 @@
       <input type="date" name="Data_Batismo" required />
     </label>
     <label>Pastor:
-      <input type="text" name="Pastor_Batismo" required />
+      <input type="text" name="Pastor_Batismo" />
     </label>
     <label>Igreja:
-      <input type="text" name="Igreja_Batismo" required />
+      <input type="text" name="Igreja_Batismo" />
     </label>
 
-    <h3>Profissão de Fé</h3>
+    <h3>Aceitou a Jesus</h3>
     <label>Data:
       <input type="date" name="Data_Profissao_Fé" required />
     </label>
     <label>Pastor:
-      <input type="text" name="Pastor_Profissao_Fé" required />
+      <input type="text" name="Pastor_Profissao_Fé" />
     </label>
     <label>Igreja:
       <input type="text" name="Igreja_Profissao_Fé" required />
     </label>
 
-    <label>Data de Admissão:
-      <input type="date" name="Data_Admissao" required />
+    <label>Data de Recebimento:
+      <input type="date" name="Data_Admissao" />
     </label>
-    <label>Meio da Admissão:
-      <input type="text" name="Meio_Admissao" required />
+    <label>Meio de Recebimento:
+      <input type="text" name="Meio_Admissao" />
     </label>
 
     <!-- Campo oculto para registrar data e hora da submissão -->
