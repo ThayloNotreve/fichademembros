@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ficha de Membro</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      max-width: 600px;
+      margin: auto;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px;
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    @media (max-width: 600px) {
+      form {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Ficha de Membro</h1>
+  <form action="https://api.sheetmonkey.io/form/mCy66ktF7CPZCr9VV2CYDx" method="POST">
+    <h2>Dados Pessoais</h2>
+    <label>Nome:
+      <input type="text" name="Nome" required />
+    </label>
+    <label>Endereço:
+      <input type="text" name="Endereço" required />
+    </label>
+    <label>Cidade/UF:
+      <input type="text" name="Cidade_UF" required />
+    </label>
+    <label>País:
+      <input type="text" name="País" required />
+    </label>
+    <label>CEP:
+      <input type="text" name="CEP" required />
+    </label>
+    <label>Telefone/Celular:
+      <input type="text" name="Telefone_Celular" required />
+    </label>
+    <label>E-mail:
+      <input type="email" name="Email" required />
+    </label>
+    <label>Data de Nascimento:
+      <input type="date" name="Data_Nascimento" required />
+    </label>
+    <label>Naturalidade:
+      <input type="text" name="Naturalidade" required />
+    </label>
+    <label>Sexo:
+      <select name="Sexo" required>
+        <option value="">Selecione</option>
+        <option value="Masculino">Masculino</option>
+        <option value="Feminino">Feminino</option>
+        <option value="Outro">Outro</option>
+      </select>
+    </label>
+
+    <h2>Dados Complementares</h2>
+    <label>Estado Civil:
+      <select name="Estado_Civil" required>
+        <option value="">Selecione</option>
+        <option value="Solteiro">Solteiro</option>
+        <option value="Casado">Casado</option>
+        <option value="Separado">Separado</option>
+        <option value="Divorciado">Divorciado</option>
+        <option value="Viúvo">Viúvo</option>
+        <option value="União Estável">União Estável</option>
+      </select>
+    </label>
+    <label>Nome do Cônjuge:
+      <input type="text" name="Nome_Conjuge" required />
+    </label>
+    <label>Data do Casamento:
+      <input type="date" name="Data_Casamento" required />
+    </label>
+    <label>Escolaridade:
+      <input type="text" name="Escolaridade" required />
+    </label>
+    <label>Profissão:
+      <input type="text" name="Profissao" required />
+    </label>
+    <label>Nome do Pai:
+      <input type="text" name="Nome_Pai" required />
+    </label>
+    <label>Nome da Mãe:
+      <input type="text" name="Nome_Mae" required />
+    </label>
+
+    <h2>Dados Eclesiásticos</h2>
+    <label>Status de Membro:
+      <select name="Status_Membro" required>
+        <option value="">Selecione</option>
+        <option value="Membro Comungante">Membro Comungante</option>
+        <option value="Membro Não Comungante">Membro Não Comungante</option>
+        <option value="Não Membro">Não Membro</option>
+      </select>
+    </label>
+    <label>Ofício:
+      <select name="Oficio" required>
+        <option value="">Selecione</option>
+        <option value="Não Oficial">Não Oficial</option>
+        <option value="Diácono">Diácono</option>
+        <option value="Diácono em disponibilidade">Diácono em disponibilidade</option>
+        <option value="Presbítero">Presbítero</option>
+        <option value="Presbítero em disponibilidade">Presbítero em disponibilidade</option>
+      </select>
+    </label>
+
+    <h3>Batismo</h3>
+    <label>Data:
+      <input type="date" name="Data_Batismo" required />
+    </label>
+    <label>Pastor:
+      <input type="text" name="Pastor_Batismo" required />
+    </label>
+    <label>Igreja:
+      <input type="text" name="Igreja_Batismo" required />
+    </label>
+
+    <h3>Profissão de Fé</h3>
+    <label>Data:
+      <input type="date" name="Data_Profissao_Fé" required />
+    </label>
+    <label>Pastor:
+      <input type="text" name="Pastor_Profissao_Fé" required />
+    </label>
+    <label>Igreja:
+      <input type="text" name="Igreja_Profissao_Fé" required />
+    </label>
+
+    <label>Data de Admissão:
+      <input type="date" name="Data_Admissao" required />
+    </label>
+    <label>Meio da Admissão:
+      <input type="text" name="Meio_Admissao" required />
+    </label>
+
+    <!-- Campo oculto para registrar data e hora da submissão -->
+    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
+
